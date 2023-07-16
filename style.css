@@ -1,0 +1,175 @@
+*{
+  margin:0;
+  padding:0;
+ box-sizing: border-box;
+  
+  
+}
+
+body{
+  background:white;
+}
+
+
+header{
+  display:flex;
+justify-content: space-around;
+background-color:#0080FE;
+padding: 30px;
+
+}
+.links ul{
+  display:flex;
+  
+}
+
+.links ul li{
+  list-style: none;
+  margin-left:20px;
+  color: white;
+  font-family: 'EB Garamond', serif;
+  
+ 
+}
+.links li button{
+   padding: 10px;
+   
+   border-radius:10px;
+   background:white;
+   color:blue;
+   border: none;
+ 
+}
+ .main{
+    display:flex;
+  
+    height: 400px;
+  justify-content: center;
+  align-items: center;
+  flex-direction:row;
+  gap:200px;
+  padding:20px;
+ }
+ .main p{
+   padding:10px;
+   font-family: 'PT Serif', serif;
+ }
+  .information h1{
+    font-family:'Oswald', sans-serif;
+  }
+ .buttons button{
+   padding: 10px;
+   margin-top:15px;
+   border-radius:10px;
+   background:#0080FE;
+   color: white;
+   border: none;
+  margin: 15px;
+ }
+ .logo{
+   font-size:35px;
+   font-family: 'Tektur', cursive;
+   color:white;
+ }
+ 
+ footer{
+   background:#0080FE;
+   height:auto;
+   Color:white;
+   
+ } 
+ 
+  footer .implinks{
+    display: flex;
+    gap:300px;
+    padding:30px;
+    line-height:35px;
+    
+  }
+  
+  footer .implinks li{
+    list-style: none;
+    font-family:font-family: 'Chela One', cursive;
+    font-weight: 800;
+  }
+   footer .implinks h3{
+     font-family: 'EB Garamond', serif;
+     
+   }
+  
+  .follow{
+    display: flex;
+ justify-content: center;
+ align-items: center;
+ padding:90px;
+ gap: 20px;
+  }
+  
+  .follow h2{
+    font-family:'Oswald', sans-serif;
+  }
+  @media screen and (max-width: 600px){
+    .main{
+      display:flex;
+      flex-direction:column;
+      height:auto;
+      justify-content:center;
+      align-items: center;
+      gap:5px;
+      
+    }
+  
+  }
+  
+  
+  @media screen and (max-width: 600px)
+  {
+    .links ul{
+      display:flex;
+      flex-direction:row;
+      justify-content:center;
+      align-items:center;
+      
+      
+    }
+    .links ul li{
+     margin-top: 10px;
+      
+    }
+     header{
+       display:flex;
+       flex-direction: column;
+       justify-content: center;
+       align-items: center;
+     }
+    
+  }
+  
+  @media screen and (max-width: 600px){
+    footer .implinks{
+      display:flex;
+      flex-direction:row;
+      gap:40px;
+    
+    }
+     footer .implinks li{
+       font-size:3px;
+       line-height:10px;
+       padding:10px;
+     }
+      footer .implinks h3{
+        font-size:15px;
+      }
+     .follow {
+       display: flex;
+       flex-direction: column;
+      
+     }
+     .follow .icons{
+       display:flex;
+       flex-direction:row;
+       gap:20px;
+       
+     }
+  }
+  
